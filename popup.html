@@ -1,0 +1,42 @@
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Awesome Recent Bookmarks</title>
+    <link href="css/popup.css" type="text/css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <script type="text/javascript" src="jquery.min.js"></script>
+  <script type="text/javascript" src="popup.js"></script>
+</head>
+
+<body>
+  <div id="wrap">
+  <!-- setting area -->
+  <div id="edit-area">
+    <form id="edit-form">
+      <div class="section">
+    <p id="alert_message_setting"></p>
+    <input type="number" id="number-bookmark" value="" />
+  </div>
+  <div class="section">
+    <p><input type="checkbox" id="alert-bookmark" name="check" >
+       <label for="alert-bookmark" id="label-message"></label>
+     </p>
+  </div>
+  <span id="change-setting"></span>
+  </form>
+  </div>
+  <!-- end setting area -->
+
+  <!-- bookmark-area
+  popup.js creates bookmark list -->
+  <div id="bookmark-area">
+  </div>
+  <!-- end bookmark area -->
+  </div>
+  <div id="setting">
+    <span><i class="fas fa-cog"></i> <span id="setting-translate"></span>      
+    </span>
+  </div>
+</body>
+</html>

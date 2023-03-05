@@ -1,0 +1,29 @@
+{
+  "setting_button": {
+    "message": "設定"
+  },
+
+  "alert_message_setting": {
+    "message": "ブックマークを削除する時に確認画面を表示する"
+  },
+
+  "bookmarkNumbers": {
+    "message": "表示するブックマークの数"
+  },
+
+  "change_button": {
+    "message" :"変更する"
+  },
+
+  "complete_changed": {
+    "message": "設定を変更しました"
+  },
+
+  "confirmDelete": {
+    "message": "本当に削除してもよろしいですか？"
+  },
+
+  "back_button": {
+    "message": "戻る"
+  }
+}
